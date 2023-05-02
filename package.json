@@ -1,5 +1,5 @@
 {
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@2.0.0-rc.36",
   "name": "web-core",
   "homepage": "https://github.com/safe-global/web-core",
   "license": "GPL-3.0",
@@ -128,6 +128,7 @@
   "resolutions": {
     "@safe-global/safe-deployments@^1.20.2": "patch:@safe-global/safe-deployments@npm%3A1.20.2#./.yarn/patches/@safe-global-safe-deployments-npm-1.20.2-34d2b9c75c.patch",
     "@gnosis.pm/safe-deployments@^1.18.0": "patch:@gnosis.pm/safe-deployments@npm%3A1.19.0#./.yarn/patches/@gnosis.pm-safe-deployments-npm-1.19.0-c6eb093430.patch",
-    "@gnosis.pm/safe-deployments@1.19.0": "patch:@gnosis.pm/safe-deployments@npm%3A1.19.0#./.yarn/patches/@gnosis.pm-safe-deployments-npm-1.19.0-c6eb093430.patch"
+    "@gnosis.pm/safe-deployments@1.19.0": "patch:@gnosis.pm/safe-deployments@npm%3A1.19.0#./.yarn/patches/@gnosis.pm-safe-deployments-npm-1.19.0-c6eb093430.patch",
+    "@keystonehq/eth-keyring": "0.14.4"
   }
 }
