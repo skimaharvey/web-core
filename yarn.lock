@@ -4165,24 +4165,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@safe-global/safe-deployments@npm:^1.22.0":
-  version: 1.22.0
-  resolution: "@safe-global/safe-deployments@npm:1.22.0"
-  dependencies:
-    semver: ^7.3.7
-  checksum: d9676321ccf0b45d3b00f48821218176ac410e0823977f71be86aa1b816ebb7c589486a646470be9a2c7e61bb49c822a02104e33ee2d6a9ddef9e56620b8a3b1
-  languageName: node
-  linkType: hard
-
-"@safe-global/safe-deployments@patch:@safe-global/safe-deployments@npm%3A1.20.2#./.yarn/patches/@safe-global-safe-deployments-npm-1.20.2-34d2b9c75c.patch::locator=web-core%40workspace%3A.":
-  version: 1.20.2
-  resolution: "@safe-global/safe-deployments@patch:@safe-global/safe-deployments@npm%3A1.20.2#./.yarn/patches/@safe-global-safe-deployments-npm-1.20.2-34d2b9c75c.patch::version=1.20.2&hash=983d08&locator=web-core%40workspace%3A."
-  dependencies:
-    semver: ^7.3.7
-  checksum: f0017e36d67a2d50c33e992ba4033e4b627e8161ea030b1cac5708b2ce035ad8fe3dbe3cb1b425624fddb8e0d68a2ac605e089036c3251db4bbb3e3e1a9a9765
-  languageName: node
-  linkType: hard
-
 "@safe-global/safe-ethers-lib@npm:^1.9.2":
   version: 1.9.3
   resolution: "@safe-global/safe-ethers-lib@npm:1.9.3"
@@ -18974,7 +18956,7 @@ __metadata:
     "@emotion/react": ^11.10.0
     "@emotion/server": ^11.10.0
     "@emotion/styled": ^11.10.0
-    "@gnosis.pm/safe-deployments": ^1.18.0
+    "@gnosis.pm/safe-deployments": 1.19.0
     "@mui/icons-material": ^5.8.4
     "@mui/material": ^5.11.10
     "@mui/x-date-pickers": ^5.0.12
