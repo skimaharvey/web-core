@@ -1,4 +1,5 @@
 {
+  "packageManager": "yarn@3.5.1",
   "name": "web-core",
   "homepage": "https://github.com/safe-global/web-core",
   "license": "GPL-3.0",
@@ -38,7 +39,6 @@
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@gnosis.pm/safe-deployments": "^1.18.0",
-    "@safe-global/safe-modules-deployments": "^1.0.0",
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.11.10",
     "@mui/x-date-pickers": "^5.0.12",
@@ -49,6 +49,7 @@
     "@safe-global/safe-deployments": "^1.20.2",
     "@safe-global/safe-ethers-lib": "^1.9.2",
     "@safe-global/safe-gateway-typescript-sdk": "^3.7.0",
+    "@safe-global/safe-modules-deployments": "^1.0.0",
     "@safe-global/safe-react-components": "^2.0.5",
     "@sentry/react": "^7.28.1",
     "@sentry/tracing": "^7.28.1",
@@ -123,5 +124,10 @@
     "typescript": "4.9.4",
     "typescript-plugin-css-modules": "^4.2.2",
     "whatwg-fetch": "3.6.2"
+  },
+  "resolutions": {
+    "@safe-global/safe-deployments@^1.20.2": "patch:@safe-global/safe-deployments@npm%3A1.20.2#./.yarn/patches/@safe-global-safe-deployments-npm-1.20.2-34d2b9c75c.patch",
+    "@gnosis.pm/safe-deployments@^1.18.0": "patch:@gnosis.pm/safe-deployments@npm%3A1.19.0#./.yarn/patches/@gnosis.pm-safe-deployments-npm-1.19.0-c6eb093430.patch",
+    "@gnosis.pm/safe-deployments@1.19.0": "patch:@gnosis.pm/safe-deployments@npm%3A1.19.0#./.yarn/patches/@gnosis.pm-safe-deployments-npm-1.19.0-c6eb093430.patch"
   }
 }

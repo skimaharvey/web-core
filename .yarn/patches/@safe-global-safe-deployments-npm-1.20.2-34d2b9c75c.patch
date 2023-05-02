@@ -1,0 +1,84 @@
+diff --git a/src/assets/v1.3.0/compatibility_fallback_handler.json b/src/assets/v1.3.0/compatibility_fallback_handler.json
+index dda131e36f2285eb88f2b148ac3738066b780ae3..4461885b017f117e63b1d5995a8c730bb56f605a 100644
+--- a/src/assets/v1.3.0/compatibility_fallback_handler.json
++++ b/src/assets/v1.3.0/compatibility_fallback_handler.json
+@@ -64,6 +64,7 @@
+     "2221": "0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4",
+     "2222": "0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4",
+     "4002": "0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4",
++    "4201": "0xF693e5fEE9b1F316812e3dfBfCd30Fb6CcEC75c4",
+     "4689": "0x017062a1dE2FE6b99BE3d9d37841FeD19F573804",
+     "4918": "0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4",
+     "4919": "0xf48f2B2d2a534e402487b3ee7C18c33Aec0Fe5e4",
+diff --git a/src/assets/v1.3.0/gnosis_safe.json b/src/assets/v1.3.0/gnosis_safe.json
+index 996c464339ff301b36abc770175dfe924c649989..1ab02a727b6d45b7ac821bdd80f2da8c0f24aa23 100644
+--- a/src/assets/v1.3.0/gnosis_safe.json
++++ b/src/assets/v1.3.0/gnosis_safe.json
+@@ -64,6 +64,7 @@
+     "2221": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+     "2222": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+     "4002": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
++    "4201": "0x37BE74f4e6b129ef9B6742C4c8a8BAF9Cd06E95e",
+     "4689": "0x69f4D1788e39c87893C980c06EdF4b7f686e2938",
+     "4918": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+     "4919": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+diff --git a/src/assets/v1.3.0/gnosis_safe_l2.json b/src/assets/v1.3.0/gnosis_safe_l2.json
+index aa412c92c1dcafd8e9ee35b0ca48840f2b94761d..73bc77326fe0731f5cb5eda4a1b8b5700d6a357d 100644
+--- a/src/assets/v1.3.0/gnosis_safe_l2.json
++++ b/src/assets/v1.3.0/gnosis_safe_l2.json
+@@ -64,6 +64,7 @@
+     "2221": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",
+     "2222": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",
+     "4002": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",
++    "4201": "0xE49Ce0FFeCbd8C5061f99FDE35a2fE878B072762",
+     "4689": "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA",
+     "4918": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",
+     "4919": "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",
+diff --git a/src/assets/v1.3.0/multi_send.json b/src/assets/v1.3.0/multi_send.json
+index 8cb66d1212c75e462db0f3c67cf7dadaa49e69af..f53bf15d4ebb7d81abfb5f7b88f04f328339ad05 100644
+--- a/src/assets/v1.3.0/multi_send.json
++++ b/src/assets/v1.3.0/multi_send.json
+@@ -64,6 +64,7 @@
+     "2221": "0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",
+     "2222": "0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",
+     "4002": "0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",
++    "4201": "0x2A99573e6DD651908D6244eFd8890A0DD9AAe9f4",
+     "4689": "0x998739BFdAAdde7C933B942a68053933098f9EDa",
+     "4918": "0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",
+     "4919": "0xA238CBeb142c10Ef7Ad8442C6D1f9E89e07e7761",
+diff --git a/src/assets/v1.3.0/multi_send_call_only.json b/src/assets/v1.3.0/multi_send_call_only.json
+index ad142a763d6b8e5b92d9668f43334f5c8068264e..a6c8a4965656f84c9fde34f0ac17062c7f724c37 100644
+--- a/src/assets/v1.3.0/multi_send_call_only.json
++++ b/src/assets/v1.3.0/multi_send_call_only.json
+@@ -64,6 +64,7 @@
+     "2221": "0x40A2aCCbd92BCA938b02010E17A5b8929b49130D",
+     "2222": "0x40A2aCCbd92BCA938b02010E17A5b8929b49130D",
+     "4002": "0x40A2aCCbd92BCA938b02010E17A5b8929b49130D",
++    "4201": "0xE51aB2b5e6CB53FC9BBF8ef03D3Ae689a2cbc900",
+     "4689": "0xA1dabEF33b3B82c7814B6D82A79e50F4AC44102B",
+     "4918": "0x40A2aCCbd92BCA938b02010E17A5b8929b49130D",
+     "4919": "0x40A2aCCbd92BCA938b02010E17A5b8929b49130D",
+diff --git a/src/assets/v1.3.0/proxy_factory.json b/src/assets/v1.3.0/proxy_factory.json
+index 68ec7cd1a6a2cf48f46eabfa013521efdf854f24..edc9466aaad50ea1a7e8dc3e88374471d28e7d71 100644
+--- a/src/assets/v1.3.0/proxy_factory.json
++++ b/src/assets/v1.3.0/proxy_factory.json
+@@ -64,6 +64,7 @@
+     "2221": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "2222": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "4002": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
++    "4201": "0x197c0697725e8f3002ba4D364e49FADC074150e0",
+     "4689": "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC",
+     "4918": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+     "4919": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+diff --git a/src/assets/v1.3.0/simulate_tx_accessor.json b/src/assets/v1.3.0/simulate_tx_accessor.json
+index 5937ffdffe0aeb087ed23da3a2ac65785e03f846..eb5f6d4d3e5b8993fad4a3cd9f4cbe49fef462ec 100644
+--- a/src/assets/v1.3.0/simulate_tx_accessor.json
++++ b/src/assets/v1.3.0/simulate_tx_accessor.json
+@@ -64,6 +64,7 @@
+     "2221": "0x59AD6735bCd8152B84860Cb256dD9e96b85F69Da",
+     "2222": "0x59AD6735bCd8152B84860Cb256dD9e96b85F69Da",
+     "4002": "0x59AD6735bCd8152B84860Cb256dD9e96b85F69Da",
++    "4201": "0x22efEc20D45D6FFa61d0A56A91b7880c64bbBDDC",
+     "4689": "0x727a77a074D1E6c4530e814F89E618a3298FC044",
+     "4918": "0x59AD6735bCd8152B84860Cb256dD9e96b85F69Da",
+     "4919": "0x59AD6735bCd8152B84860Cb256dD9e96b85F69Da",

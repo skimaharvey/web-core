@@ -177,7 +177,6 @@ export const getFallbackHandlerContractInstance = (
   safeVersion: string = LATEST_SAFE_VERSION,
 ): CompatibilityFallbackHandlerEthersContract => {
   const ethAdapter = createEthersAdapter()
-
   return ethAdapter.getCompatibilityFallbackHandlerContract({
     singletonDeployment: getFallbackHandlerContractDeployment(chainId),
     ..._getValidatedGetContractProps(chainId, safeVersion),
