@@ -6301,14 +6301,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@web3-onboard/common@npm:^2.2.3, @web3-onboard/common@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "@web3-onboard/common@npm:2.3.1"
+"@web3-onboard/common@npm:2.2.3":
+  version: 2.2.3
+  resolution: "@web3-onboard/common@npm:2.2.3"
   dependencies:
     bignumber.js: ^9.1.0
     ethers: 5.5.4
-    joi: 17.9.1
-  checksum: b1bc69d51cbe3d181e58fea33cf763edbfaaa46afff7bac41f7ccf964bdb1dcc9f5c08c732a9163dea05509bc07eaf16f39c0dc52784a41b67a01b632ef11c03
+    joi: ^17.6.1
+  checksum: bce5080e5947308a1e89dea307fc255fc34b9b0446c08dcbb97afdce539ee0373ef28fbb0681a69ecbd6e9fecd0466a3a0bbab16f6229d8d71f89fc042762fee
   languageName: node
   linkType: hard
 
